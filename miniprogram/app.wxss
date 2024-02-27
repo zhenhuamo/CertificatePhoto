@@ -1,0 +1,30 @@
+/**app.wxss**/
+@import "colorui/main.wxss";
+@import "colorui/icon.wxss";
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+} 
+
+button {
+  background: initial;
+}
+
+button:focus{
+  outline: 0;
+}
+
+button::after{
+  border: none;
+}
+
+
+page {
+  /* background: linear-gradient(to bottom, rgba(0,191,243,.2), rgba(67,142,219,.2), rgba(255,0,0,.2)); */
+  background-color: #F5F5F5;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}

@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/share/share",
+    "pages/mein/mein",
+    "pages/editPhoto/imageStyle/imageStyle",
+    "pages/editPhoto/hair/hair",
+    "pages/searchSize/searchSize",
+    "pages/searchSize/searchView/searchView",
+    "pages/searchSize/custom/custom",
+    "pages/editPhoto/complete/complete",
+    "pages/helpMake/helpMake",
+    "pages/preEdit/preEdit",
+    "pages/editPhoto/editPhotoPlus/editPhotoPlus",
+    "pages/imgZip/imgZip",
+    "pages/zipSuccess/zipSuccess",
+    "pages/imgCompose/compose"
+  ],
+  "window": {
+    "backgroundColor": "#fff",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#3E85EE",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "tabBar": {
+    "backgroundColor": "#fff",
+    "color": "#333333",
+    "selectedColor": "#3E85EE",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "./images/index.png",
+        "selectedIconPath": "./images/index-active.png"
+      },
+      {
+        "pagePath": "pages/mein/mein",
+        "text": "我的",
+        "iconPath": "./images/me.png",
+        "selectedIconPath": "./images/me-active.png"
+      }
+    ]
+  },
+  "lazyCodeLoading": "requiredComponents"
+}
